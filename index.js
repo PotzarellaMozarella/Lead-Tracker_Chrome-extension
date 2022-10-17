@@ -6,6 +6,7 @@ const inputBtn = document.getElementById("input-btn")
 const deleteBtn = document.getElementById("delete-btn")
 const tabBtn = document.getElementById("savetab-btn")
 
+//event listner for save tab that saves the current tab in local storage
 tabBtn.addEventListener("click", function() {
     chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
         myLeads.push(tabs[0].url);
@@ -14,13 +15,16 @@ tabBtn.addEventListener("click", function() {
     }); 
 })
 
+//storing parsed leads from local storage
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
+//calling render fuction if any leads exist in local storage
 if(leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage;
     render(myLeads);
 }
 
+//rendering leads and making them clickable
 function render(leads) {
     let listItems = ""
     for(let i=0; i<leads.length; i++) {
@@ -38,6 +42,7 @@ function render(leads) {
 unEl.innerHTML = listItems
 }
 
+//event listner for input and storing it in local storage
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value);
     inputEl.value ="";
@@ -45,6 +50,7 @@ inputBtn.addEventListener("click", function() {
     render(myLeads);  
 })
 
+//event listner for deleting all saves leads
 deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear();
     myLeads = [];  
