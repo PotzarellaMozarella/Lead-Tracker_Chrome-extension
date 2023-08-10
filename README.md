@@ -1,5 +1,3 @@
-Welcome to the Lead Tracker Chrome Extension README!
-
 Experience a revolutionary way to manage and track your leads directly from your browser. Our Lead Tracker Chrome Extension offers a streamlined solution for capturing, storing, and organizing essential website URLs. 
 
 ## Features
