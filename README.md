@@ -7,6 +7,18 @@ Experience a revolutionary way to manage and track your leads directly from your
 - **Instant Access:** Retrieve your saved leads anytime, right from the extension.
 - **Quick Deletion:** Remove unwanted leads with a simple double-click.
 
+- Save Tab 
+![Screenshot](public/Jammming.png)
+
+- Save Input (URL) 
+- ![Screenshot](public/Jammming.png)
+- 
+View Leads List
+- ![Screenshot](public/Jammming.png)
+  
+- Delete All
+- ![Screenshot](public/Jammming.png)
+
 ## How It Works
 
 1. Download and install the Chrome extension.
