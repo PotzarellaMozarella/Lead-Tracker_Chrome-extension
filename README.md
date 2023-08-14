@@ -13,13 +13,13 @@ Experience a revolutionary way to manage and track your leads directly from your
 ![Screenshot](public/Jammming.png)
 
 - Save Input (URL) 
-- ![Screenshot](public/Jammming.png)
-- 
-View Leads List
-- ![Screenshot](public/Jammming.png)
+![Screenshot](public/Jammming.png)
+  
+- View Leads List
+![Screenshot](public/Jammming.png)
   
 - Delete All
-- ![Screenshot](public/Jammming.png)
+![Screenshot](public/Jammming.png)
 
 ## How It Works
 
