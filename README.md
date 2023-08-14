@@ -7,6 +7,8 @@ Experience a revolutionary way to manage and track your leads directly from your
 - **Instant Access:** Retrieve your saved leads anytime, right from the extension.
 - **Quick Deletion:** Remove unwanted leads with a simple double-click.
 
+
+## UI Demo
 - Save Tab 
 ![Screenshot](public/Jammming.png)
 
