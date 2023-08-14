@@ -10,16 +10,16 @@ Experience a revolutionary way to manage and track your leads directly from your
 
 ## UI Demo
 - Save Tab 
-![Screenshot](public/Jammming.png)
+![Screenshot](screenshots/saveTab.png)
 
 - Save Input (URL) 
-![Screenshot](public/Jammming.png)
+![Screenshot](screenshots/saveInput.png)
   
 - View Leads List
-![Screenshot](public/Jammming.png)
+![Screenshot](screenshots/leadsList.png)
   
 - Delete All
-![Screenshot](public/Jammming.png)
+![Screenshot](screenshots/deleteAll.png)
 
 ## How It Works
 
